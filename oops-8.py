@@ -13,6 +13,7 @@ class Car:
 class Brand(Car):
     def __init__(self, type):
         super().__init__(type)
+        super().start()
 
 brd = Brand("SUV")
 print(brd.type)
